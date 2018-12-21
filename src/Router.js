@@ -11,7 +11,6 @@ const RouterComponent = () => {
                 <Scene key="login" component={LoginContainer} title="Please Login" />
             </Scene>
             <Scene key="main">
-                <Scene key="feed" component={ImageSlider}></Scene>
             </Scene>
         </Router>
     );
